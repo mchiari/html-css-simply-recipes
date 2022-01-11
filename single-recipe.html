@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Single Recipe</title>
+		<!-- favicon -->
+		<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+		<!-- normalize -->
+		<link rel="stylesheet" href="./css/normalize.css" />
+		<!-- font-awesome -->
+		<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+		/>
+    	<!-- main css -->
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+   <!-- nav -->
+	<nav class="navbar">
+		<div class="nav-center">
+			<!-- header -->
+			<div class="nav-header">
+					<a href="index.html" class="nav-logo">
+						<img src="./assets/logo.svg" alt="simply recipes" />
+					</a>
+					<button type="button" class="btn nav-btn">
+						<i class="fas fa-align-justify"></i>
+					</button>
+			</div>
+			<!-- links -->
+			<div class="nav-links">
+				<a href="index.html" class="nav-link">home</a>
+				<a href="about.html" class="nav-link">about</a>
+				<a href="tags.html" class="nav-link">tags</a>
+				<a href="recipes.html" class="nav-link">recipes</a>
+				<div class="nav-link contact-link">
+					<a href="contact.html" class="btn">contact</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+   <!-- end of nav-->
+   <!-- main -->
+	<main class="page">
+	
+		<div class="recipe-page">
+			<section class="recipe-hero">
+				<img src="./assets/recipes/recipe-4.jpeg" alt="pancakes" class="img recipe-hero-img" />
+				<article>
+					<h2>Banana Pancakes</h2>
+					<p>Mixtape sartorial actually try-hard brunch kickstarter, biodiesel lo-fi fixie prism. Schlitz cliche chartreuse, mixtape ennui chillwave cronut messenger bag. Sriracha trust fund iceland locavore, adaptogen truffaut PBR&B typewriter asymmetrical ethical helvetica green juice. Ugh tumeric cornhole, craft beer squid normcore XOXO sustainable humblebrag art party mumblecore.</p>
+					<!-- recipe icons -->
+					<div class="recipe-icons">
+						<article>
+							<i class="fas fa-clock"></i>
+							<h5>prep. time</h5>
+							<p>30min.</p>
+						</article>
+						<article>
+							<i class="far fa-clock"></i>
+							<h5>cook. time</h5>
+							<p>15min.</p>
+						</article>
+						<article>
+							<i class="fas fa-user-friends"></i>
+							<h5>servings</h5>
+							<p>6 servings</p>
+						</article>
+					</div>
+					<!-- recipe tags -->
+					<div class="recipe-tags">
+						Tags:
+						<a href="tag-template.html">beef</a>
+						<a href="tag-template.html">breakfast</a>
+						<a href="tag-template.html">Pancakes</a>
+						<a href="tag-template.html">food</a>
+					</div>
+				</article>
+			</section>
+			<!-- recipe content -->
+			<section class="recipe-content">
+				<article>
+					<h4>Instructions</h4>
+					<!-- single instruction -->
+					<div class="single-instruction">
+						<header>
+							<p>step 1</p>
+							<div></div>
+						</header>
+						<p>Pickled bespoke slow-carb +1 pug man braid, bitters chartreuse shaman.</p>	
+					</div>
+					<!--end of single instruction -->
+					<!-- single instruction -->
+					<div class="single-instruction">
+						<header>
+							<p>step 2</p>
+							<div></div>
+						</header>
+						<p>Sriracha trust fund iceland locavore, adaptogen truffaut PBR&B typewriter asymmetrical ethical helvetica green juice.</p>	
+					</div>
+					<!--end of single instruction -->
+					<!-- single instruction -->
+					<div class="single-instruction">
+						<header>
+							<p>step 3</p>
+							<div></div>
+						</header>
+						<p>Tilde sustainable fixie brunch brooklyn poke taiyaki poutine bespoke quinoa knausgaard tumeric cloud bread.</p>	
+					</div>
+					<!--end of single instruction -->
+				</article>
+				<article class="second-column">
+					<div>
+						<h4>ingredients</h4>
+						<p class="single-ingredient">
+							1 1/2 cups dry pancake mix;
+						</p>
+						<p class="single-ingredient">
+							2 cups milk;
+						</p>
+						<p class="single-ingredient">
+							1 cup sugar;
+						</p>
+					</div>
+					<div>
+						<h4>tools</h4>
+						<p class="single-tool">
+							mixer
+						</p>
+						<p class="single-tool">
+							blender	
+						</p>
+						<p class="single-tool">
+							spoon	
+						</p>
+						<p class="single-tool">
+							joy
+						</p>
+					</div>
+				</article>
+			</section>
+			<!-- end of recipe content -->
+		</div>
+
+	</main>
+	<!-- end of main -->
+   <!--footer -->
+	<footer class="page-footer">
+		<p>&copy; <span id="date"></span>
+		<span class="footer-logo">SimplyRecipes</span>
+		Built by mchiari. Learned <a href="http://johnsmilga.com">here.</a>
+		</p>
+	</footer>
+	<!--end of footer-->
+
+   <script src="./js/app.js"></script>
+	</body>
+</html>
